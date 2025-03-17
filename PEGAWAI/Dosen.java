@@ -6,8 +6,8 @@
 
  package PEGAWAI;
 
- public     class Dosen extends Pegawai {
-     protected String fakultas;
+ public class Dosen extends Pegawai {
+     public String fakultas;
      
      public Dosen() {
          super();

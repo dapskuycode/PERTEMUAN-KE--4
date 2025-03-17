@@ -11,11 +11,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Pegawai {
-    protected String NIP;
-    protected String NAMA;
-    protected LocalDate TanggalLahir;
-    protected LocalDate TMT;
-    protected int GajiPokok;
+    public String NIP;
+    public String NAMA;
+    public LocalDate TanggalLahir;
+    public LocalDate TMT;
+    public int GajiPokok;
     
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("d MMM yyyy");
 
